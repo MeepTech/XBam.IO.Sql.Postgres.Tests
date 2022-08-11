@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XBam.IO.Sql.Postgres\Meep.Tech.XBam.IO.Sql.Postgres.csproj" />
+    <ProjectReference Include="..\XBam.IO.Sql\Meep.Tech.XBam.IO.Sql.csproj" />
+    <ProjectReference Include="..\XBam.IO\Meep.Tech.XBam.IO.csproj" />
+    <ProjectReference Include="..\XBam\Meep.Tech.Xbam.csproj" />
+  </ItemGroup>
+
+
+</Project>
